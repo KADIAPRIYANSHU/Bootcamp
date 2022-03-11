@@ -1,0 +1,15 @@
+D:\Bootcamp_myproject\OOPS\dependeciesinjection\dependeciesinjection\bin\Debug\net6.0\dependeciesinjection.exe
+D:\Bootcamp_myproject\OOPS\dependeciesinjection\dependeciesinjection\bin\Debug\net6.0\dependeciesinjection.deps.json
+D:\Bootcamp_myproject\OOPS\dependeciesinjection\dependeciesinjection\bin\Debug\net6.0\dependeciesinjection.runtimeconfig.json
+D:\Bootcamp_myproject\OOPS\dependeciesinjection\dependeciesinjection\bin\Debug\net6.0\dependeciesinjection.dll
+D:\Bootcamp_myproject\OOPS\dependeciesinjection\dependeciesinjection\bin\Debug\net6.0\dependeciesinjection.pdb
+D:\Bootcamp_myproject\OOPS\dependeciesinjection\dependeciesinjection\obj\Debug\net6.0\dependeciesinjection.csproj.AssemblyReference.cache
+D:\Bootcamp_myproject\OOPS\dependeciesinjection\dependeciesinjection\obj\Debug\net6.0\dependeciesinjection.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp_myproject\OOPS\dependeciesinjection\dependeciesinjection\obj\Debug\net6.0\dependeciesinjection.AssemblyInfoInputs.cache
+D:\Bootcamp_myproject\OOPS\dependeciesinjection\dependeciesinjection\obj\Debug\net6.0\dependeciesinjection.AssemblyInfo.cs
+D:\Bootcamp_myproject\OOPS\dependeciesinjection\dependeciesinjection\obj\Debug\net6.0\dependeciesinjection.csproj.CoreCompileInputs.cache
+D:\Bootcamp_myproject\OOPS\dependeciesinjection\dependeciesinjection\obj\Debug\net6.0\dependeciesinjection.dll
+D:\Bootcamp_myproject\OOPS\dependeciesinjection\dependeciesinjection\obj\Debug\net6.0\refint\dependeciesinjection.dll
+D:\Bootcamp_myproject\OOPS\dependeciesinjection\dependeciesinjection\obj\Debug\net6.0\dependeciesinjection.pdb
+D:\Bootcamp_myproject\OOPS\dependeciesinjection\dependeciesinjection\obj\Debug\net6.0\dependeciesinjection.genruntimeconfig.cache
+D:\Bootcamp_myproject\OOPS\dependeciesinjection\dependeciesinjection\obj\Debug\net6.0\ref\dependeciesinjection.dll

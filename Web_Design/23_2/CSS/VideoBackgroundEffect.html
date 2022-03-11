@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Demo Background Video</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+        }
+        .fullscreen_bg {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            overflow: hidden;
+            z-index: -1;
+            background-size: cover;
+        }
+
+        .fullscreen_bg_video {
+            position: fixed;
+            width: auto;
+            height: auto;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        h2 {
+            border: 2px solid black;
+            border-radius: 10px 50px 20px;
+            width: 70px;
+            margin-top: 400px;
+            margin-left: 700px;
+            text-align: center;
+            background-color: rgba(121, 132, 88, 1);
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="fullscreen_bg" id="a">
+        <video src="https://media.giphy.com/media/3oEduVK8jh2l2c7hhm/giphy.mp4" autoplay loop muted class="fullscreen_bg_video"></video>
+    </div>
+    <h2>Hello</h2>
+    
+</body>
+
+</html>

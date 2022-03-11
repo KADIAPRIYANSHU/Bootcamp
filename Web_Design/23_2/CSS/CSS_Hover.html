@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <title>Hover</title>
+    <style>
+        #MainUL li ul li{display:none;}
+        #MainUL li:hover ul li{display:block;}
+        #MainUL li:hover ul li ul li{display:none;}
+        #MainUL li ul li:hover ul li{display:block;}
+        #MainUL li ul li:hover ul li ul li{display:none;}
+        #MainUL li ul li ul li:hover ul li{display:block;}
+    </style>
+</head>
+<body>
+    <ul id="MainUL">
+        <li>vagitable
+            <ul>
+                <li>Patato
+                    <ul>
+                        <li>Chips</li>
+                        <li>vada
+                            <ul>
+                                <li>With Chatni</li>
+                                <li>With Pav</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Tamato</li>
+                <li>Lady Finger</li>
+                <li>Onion</li>
+            </ul>
+        </li>
+        <li>Dry Fruits</li>
+        <li>Sweets</li>
+        <li>Fruits
+            <ul>
+                <li>Mango</li>
+                <li>Apple</li>
+                <li>Banana</li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+</html>

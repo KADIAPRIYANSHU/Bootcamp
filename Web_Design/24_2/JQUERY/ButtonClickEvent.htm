@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/JavaScript"></script>
+	<script>
+		$(document).ready(function () {
+			$("#btnShow").attr('disabled', true);
+
+			$("#btnHide").click(function () {
+				if (confirm("Are you sure...?")) {
+					$("#mainDiv").hide(2000);
+					$(this).attr('disabled', true);
+					$("#btnShow").attr('disabled', false);
+					$("#btnToggle").text("Show")
+				}
+
+			})
+
+			$("#btnShow").click(function () {
+				if (confirm("Are you sure...?")) {
+					$("#mainDiv").show(2000);
+					$(this).attr('disabled', true);
+					$("#btnHide").attr('disabled', false);
+					$("#btnToggle").text("Hide")
+				}
+			})
+
+			$("#btnToggle").click(function () {
+				if (confirm("are you sure?")) {
+					($(this).text() == "Hide")
+						? ($(this).text("Show"), ($("#mainDiv").hide(2000)), ($("#btnShow").attr('disabled', false)), ($("#btnHide").attr('disabled', true)))
+						: ($(this).text("Hide"), ($("#mainDiv").show(2000)), ($("#btnShow").attr('disabled', true)), ($("#btnHide").attr('disabled', false)))
+				}
+			})
+			$("#btnPlus").click(function () {
+				var div_height = parseInt($("#mainDiv").css('height'));
+				var div_width = parseInt($("#mainDiv").css('width'));
+				if (div_height <= 500) {
+					div_height += 10;
+					div_width += 10;
+					$("#mainDiv").css('height', div_height);
+					$("#mainDiv").css('width', div_width);
+				}
+				else {
+					alert("More than 500px is not possible..!!");
+				}
+			})
+			$("#btnMinus").click(function () {
+				var div_height = parseInt($("#mainDiv").css("height"));
+				var div_width = parseInt($("#mainDiv").css("width"));
+				if (div_height >= 20) {
+					div_height -= 10;
+					div_width -= 10;
+					$("#mainDiv").css('height', div_height);
+					$("#mainDiv").css('width', div_width);
+				}
+				else {
+					alert("Less than 20px is not possible");
+				}
+			})
+		})
+
+
+	</script>
+</head>
+
+<body>
+	<div id="mainDiv" style="height: 200px;width: 200px;background-color: rgb(34, 211, 218);"></div>
+	<hr />
+	<button id="btnHide">Hide</button>
+	<button id="btnShow">Show</button>
+	<hr />
+	<button id="btnToggle">Hide</button>
+	<hr />
+	<button id="btnPlus"><b>+</b></button>
+	<button id="btnMinus"><b>-</b></button>
+	<hr />
+
+	</head>
+
+	<body>
+
+	</body>
+
+</html>
